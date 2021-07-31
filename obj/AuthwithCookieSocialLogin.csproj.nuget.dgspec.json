@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AuthwithCookieSocialLogin\\AuthwithCookieSocialLogin.csproj": {}
+    "F:\\Asp.netCoreAuthwithCookie--SocialLogin\\AuthwithCookieSocialLogin.csproj": {}
   },
   "projects": {
-    "F:\\AuthwithCookieSocialLogin\\AuthwithCookieSocialLogin.csproj": {
+    "F:\\Asp.netCoreAuthwithCookie--SocialLogin\\AuthwithCookieSocialLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AuthwithCookieSocialLogin\\AuthwithCookieSocialLogin.csproj",
+        "projectUniqueName": "F:\\Asp.netCoreAuthwithCookie--SocialLogin\\AuthwithCookieSocialLogin.csproj",
         "projectName": "AuthwithCookieSocialLogin",
-        "projectPath": "F:\\AuthwithCookieSocialLogin\\AuthwithCookieSocialLogin.csproj",
+        "projectPath": "F:\\Asp.netCoreAuthwithCookie--SocialLogin\\AuthwithCookieSocialLogin.csproj",
         "packagesPath": "C:\\Users\\poude\\.nuget\\packages\\",
-        "outputPath": "F:\\AuthwithCookieSocialLogin\\obj\\",
+        "outputPath": "F:\\Asp.netCoreAuthwithCookie--SocialLogin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,32 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
